@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Pictures\" />
+    <None Remove="Pictures\favoriteButton2.png" />
+    <None Remove="Pictures\pic10.jpg" />
+    <None Remove="Pictures\pic14.jpeg" />
+    <None Remove="Pictures\pic2.jpg" />
+    <None Remove="Pictures\pic21.jpg" />
+    <None Remove="Pictures\pic3.jpg" />
+    <None Remove="Pictures\pic4.jpg" />
+    <None Remove="Pictures\pic5.jpg" />
+    <None Remove="Pictures\pic6.jpg" />
+    <None Remove="Pictures\pic7.jpg" />
+    <None Remove="Pictures\pic8.jpg" />
+    <None Remove="Pictures\pic9.jpeg" />
+    <None Remove="Pictures\unfavoriteIcon.png" />
+    <None Remove="Pictures\pic11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pictures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pictures\favoriteButton2.png" />
+    <EmbeddedResource Include="Pictures\pic10.jpg" />
+    <EmbeddedResource Include="Pictures\pic14.jpeg" />
+    <EmbeddedResource Include="Pictures\pic2.jpg" />
+    <EmbeddedResource Include="Pictures\pic21.jpg" />
+    <EmbeddedResource Include="Pictures\pic3.jpg" />
+    <EmbeddedResource Include="Pictures\pic4.jpg" />
+    <EmbeddedResource Include="Pictures\pic5.jpg" />
+    <EmbeddedResource Include="Pictures\pic6.jpg" />
+    <EmbeddedResource Include="Pictures\pic7.jpg" />
+    <EmbeddedResource Include="Pictures\pic8.jpg" />
+    <EmbeddedResource Include="Pictures\pic9.jpeg" />
+    <EmbeddedResource Include="Pictures\unfavoriteIcon.png" />
+    <EmbeddedResource Include="Pictures\pic11.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "G5gifS3+6SfDLapm0hDW9wxSBJlfvjHRvl0R6dNU4L/E3gezhmiUB7Z+bO7nvQDVxnBhPsG2lM3rH+N8spTjbw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Projects/Gallery/Gallery/Gallery.iOS/Gallery.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
